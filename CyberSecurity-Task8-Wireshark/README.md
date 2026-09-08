@@ -36,6 +36,24 @@ An HTTP GET request can expose data such as the requested web page address and h
 - **Port:** A numbered communication endpoint used by a service or application.
 - **Payload:** The actual data carried inside a network packet.
 - **Handshake:** The initial exchange of messages used to establish a connection.
+  
+  ## Screenshots
+
+### HTTP Traffic Filter
+
+![HTTP filter results](http_filter.png)
+
+### DNS Traffic Filter
+
+![DNS filter results](dns_filter.png)
+
+### TCP Three-Way Handshake
+
+![TCP handshake](tcp_handshake.png)
+
+### Unencrypted HTTP GET Request
+
+![HTTP GET packet details](http_get_packet.png)
 
 ## Files
 
