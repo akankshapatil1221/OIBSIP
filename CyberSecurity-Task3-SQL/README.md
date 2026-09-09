@@ -54,6 +54,7 @@ Exposed Data: Usernames and MD5 password hashes (e.g., admin : 5f4dcc3b5aa765d61
 
 04_SQLi_Payload2_Hashes.png - Password hashes extracted using UNION SELECT payload.
 
+
 5. How to Prevent SQL Injection (Remediation)
    
 1. Prepared Statements / Parameterized Queries (Primary Defense)
@@ -76,6 +77,7 @@ Ensure the expected input strictly matches the data type (e.g., casting id to an
 
 3. Principle of Least Privilege
 Limit the database user permissions so that the web application cannot execute system-level commands or access unneeded databases.
+
 
 6. Conclusion
 SQL Injection poses a severe security risk by allowing unauthorized access to sensitive database records. Implementing Parameterized Queries (Prepared Statements) completely eliminates this vulnerability.
