@@ -1,5 +1,3 @@
----
-
 ### File 2: `sql_injection_notes.md`
 
 Is text ko copy karke ek aur nayi file banayein aur usko **`sql_injection_notes.md`** naam se save kar lein.
