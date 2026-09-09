@@ -44,15 +44,19 @@ The trailing # (comment character in MySQL) truncates the rest of the original a
 
 Exposed Data: Usernames and MD5 password hashes (e.g., admin : 5f4dcc3b5aa765d61d8327deb882cf99).
 
-4. Screenshots Evidence
-   
-01_DVWA_Setup.png - Successful setup of DVWA database on local XAMPP server.
+## 4. Screenshots Evidence
 
-02_Security_Level_Low.png - Verification of DVWA Security set to Low.
+### Step 1: DVWA Setup
+![DVWA Setup](01_DVWA_Setup.png)
 
-03_SQLi_Payload1_Basic.png - Data dumped using basic true condition payload.
+### Step 2: Security Level Low
+![Security Level Low](02_Security_Level_Low.png)
 
-04_SQLi_Payload2_Hashes.png - Password hashes extracted using UNION SELECT payload.
+### Step 3: Payload 1 - Basic SQL Injection
+![SQLi Payload 1](03_SQLi_Payload1_Basic.png)
+
+### Step 4: Payload 2 - Extracting Password Hashes
+![SQLi Payload 2](04_SQLi_Payload2_Hashes.png)
 
 
 5. How to Prevent SQL Injection (Remediation)
